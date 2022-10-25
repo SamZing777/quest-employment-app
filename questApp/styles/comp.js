@@ -32,8 +32,10 @@ const styles = StyleSheet.create({
     },
 
     largeText: {
-        fontSize: Sizes.large * 1.45,
-        color: Colors.primary
+        fontSize: Sizes.large * 1,
+        color: Colors.primary,
+        marginVertical: Spaces.small_width,
+        paddingHorizontal: Spaces.medium_width
     },
 
     paragraph: {
@@ -118,6 +120,13 @@ const styles = StyleSheet.create({
         elevation: 2.5,
         marginHorizontal: Spaces.base_width,
         borderRadius: Sizes.small
+    },
+
+    line: {
+        height: 1,
+        backgroundColor: Colors.gray,
+        width: "85%",
+        alignSelf: "center"
     }
 })
 

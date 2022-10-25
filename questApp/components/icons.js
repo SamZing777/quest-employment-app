@@ -5,7 +5,8 @@ import { Colors, Sizes } from '../constants/theme';
 
 export const BaseIcon = ({icon_name}) =>{
     return(
-        <Icon name={icon_name} size={Sizes.base * 1.2} color={Colors.dark} />
+        <Icon name={icon_name} size={Sizes.base * 1.5} color={Colors.dark}
+        style={{marginRight: 24}} />
     )
 }
 
